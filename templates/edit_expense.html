@@ -1,0 +1,12 @@
+<form method="POST">
+    <label>Name:</label>
+    <input type="text" name="name" value="{{ expense.name }}" required>
+    
+    <label>Amount:</label>
+    <input type="number" name="amount" value="{{ expense.amount }}" required>
+
+    <label>Date:</label>
+    <input type="date" name="date" value="{{ expense.date }}" required>
+
+    <button type="submit">Update Expense</button>
+</form>
